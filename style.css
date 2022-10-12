@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Oswald',sans-serif;
+}
+.background{
+    background-image: url(./Images/bg-project1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container h1{
+    color: azure;
+    background-color: brown;
+    padding: 1rem 2rem;
+    border-radius: 1.7rem;
+    font-size: 3rem;
+}
+.setting{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.setting .fa-cog{
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+.setting-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.setting-content input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.setting-content button{
+    padding: 0.5rem 1rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+}
+.hide{
+    display: none;
+}
+.time-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.time-container h2{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.time-container div{
+    
+    font-size: 3rem;
+    color: white;
+}
